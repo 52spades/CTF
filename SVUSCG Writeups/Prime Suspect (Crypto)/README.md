@@ -11,7 +11,7 @@ n = 1020643673051756230050033678039637359922107177217195632187605988788977710630
 
 In RSA protocol, 5 main variables are used to calculate encrypted messages: `n, e, d, m, c`
 1. `n` refers to modulus: a positive integer that is the product of two large prime numbers `p` and `q`. Used in both public and private keys. It defines a range of operations. Encryption is done through `modulo n`, meaning that answers are calculated as the remainder of a number, x, divided by n. `e.g. 101 modulo 10 = 1`.
-2. `e `refers to the public key exponent, which is used in tandem with m (value of the message) to encrypt the initial message.
+2. `e` refers to the public key exponent, which is used in tandem with m (value of the message) to encrypt the initial message.
 3. `m` is the plaintext string that needs to be encrypted.
 4. `d` refers to the private key exponent. This is used in an inverted formula to decrypt a message. To calculate the private key exponent, the following formula is used:
 
